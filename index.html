@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siwakorn Thanusa - Portfolio</title>
+<style>
+    * { margin:0; padding:0; box-sizing:border-box; scroll-behavior: smooth; }
+    body { font-family: 'Arial', sans-serif; line-height: 1.6; background:#f0f2f5; color:#333; }
+    a { text-decoration:none; color: inherit; }
+
+    /* Header */
+    header {
+        background: #4CAF50;
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+    }
+    header img {
+        width: 300px; height:300px;  margin-bottom: 15px;
+        border: 3px solid white;
+    }
+    header h1 { margin-bottom: 5px; }
+    header p { font-size: 1.1em; }
+
+    /* Navigation */
+    nav {
+        background: #333;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    nav a {
+        padding: 12px 20px;
+        color: #f2f2f2;
+        transition: 0.3s;
+    }
+    nav a:hover { background:#4CAF50; color:white; }
+
+    /* Sections */
+    section {
+        max-width: 900px;
+        margin: 20px auto;
+        background: white;
+        padding: 25px 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+        border-bottom: 2px solid #4CAF50;
+        margin-bottom: 15px;
+        padding-bottom:5px;
+        color:#333;
+    }
+    ul { list-style: none; padding-left: 0; }
+    li { margin-bottom:8px; }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #333;
+        color: white;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+
+
+<nav>
+    <a href="#about">แนะนำตัว</a>
+    <a href="#skills">ทักษะ</a>
+    <a href="#projects">ผลงาน</a>
+    <a href="#education">การศึกษา</a>
+    <a href="#activities">กิจกรรม</a>
+    <a href="#contact">ติดต่อ</a>
+    <a href="#goals">เป้าหมาย</a>
+</nav>
+
+<section id="about">
+    <h2>แนะนำตัว</h2>
+    <div style="display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
+        <!-- รูปโปรไฟล์ -->
+        <img src="https://raw.githubusercontent.com/Siwakorn129/Siwakorn129.github.io/main/1668947549588.jpg" 
+     alt="Profile Picture" 
+     style="width:100%; max-width:200px; height:auto; border:3px solid #4CAF50;">
+
+        
+        <!-- ข้อมูลส่วนตัว -->
+        <div>
+            <p><strong>นายศิวกร ธนูสา</strong></p>
+            <p><strong>Siwakorn Thanusa</strong></p>
+            <p>สาขาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์</p>
+            <p>มหาวิทยาลัยราชภัฏอุดรธานี</p>
+            <p>นักศึกษาปี 3</p>
+            <p>ความสนใจเฉพาะทาง: Web-application, mobile application</p>
+        </div>
+    </div>
+</section>
+
+
+<section id="skills">
+    <h2>ทักษะ</h2>
+    <ul>
+        <li>ภาษาโปรแกรม: C, C#, Java, Python, Kotlin, HTML, CSS, JavaScript</li>
+        <li>Database: MySQL, SSMS</li>
+        <li>Tools: Git, Github</li>
+        <li>Soft Skills: การสื่อสาร, การทำงานเป็นทีม</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>ผลงาน</h2>
+    <div style="margin-bottom:20px;">
+        <h3>ไลน์แชทบอทตอบคำถามสมัครเรียน</h3>
+        <img src="https://raw.githubusercontent.com/Siwakorn129/Siwakorn129.github.io/main/pj1.png" alt="AI Chatbot" width="500" />
+    </div>
+    <div style="margin-bottom:20px;">
+        <h3>ระบบ AI ตรวจจับใบหน้าเข้าธนาคาร</h3>
+        <img src="https://raw.githubusercontent.com/Siwakorn129/Siwakorn129.github.io/main/pj2.png" alt="Face Detection" width="500" />
+    </div>
+</section>
+
+
+<section id="education">
+    <h2>การศึกษา</h2>
+    <p>- ปี3 สาขาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ มหาวิทยาลัยราชภัฏอุดรธานี (กำลังศึกษา)</p>
+    <p>- โรงเรียนยโสธรพิทยาสรรค์ ชั้นมัธยมศึกษาตอนปลาย</p>
+</section>
+
+<section id="activities">
+    <h2>กิจกรรมและผลงานอื่นๆ</h2>
+    <ul>
+        <li>เข้าร่วมการแข่งขัน Startup Thailand League Udonthani</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>ติดต่อ</h2>
+    <p>Email: siwakorn.ze44@gmail.com</p>
+    <p>Facebook: Siwakorn Thanusa</p>
+    <p>Line: cn.makham</p>
+    <p>เบอร์โทรศัพท์: 092-790-6830</p>
+</section>
+
+<section id="goals">
+    <h2>เป้าหมายในอนาคต</h2>
+    <p>Programmer</p>
+</section>
+
+<footer>
+    <p>Siwakorn Thanusa</p>
+</footer>
+
+</body>
+</html>
